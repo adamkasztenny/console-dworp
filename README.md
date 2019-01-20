@@ -1,2 +1,2 @@
-# -console-dworp
-The greatest debugging tool ever made
+# console-dworp
+The greatest debugging tool ever made.
