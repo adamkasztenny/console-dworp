@@ -2,7 +2,7 @@
   "name": "console-dworp",
   "version": "1.0.0",
   "description": "The greatest debugging tool ever made",
-  "main": "console-dworp.js",
+  "main": "src/console-dworp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
