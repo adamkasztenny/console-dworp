@@ -1,0 +1,24 @@
+{
+  "name": "console-dworp",
+  "version": "1.0.0",
+  "description": "The greatest debugging tool ever made",
+  "main": "console-dworp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamkasztenny/console-dworp.git"
+  },
+  "keywords": [
+    "dworp",
+    "derp",
+    "blorp"
+  ],
+  "author": "Adam Kasztenny",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/adamkasztenny/console-dworp/issues"
+  },
+  "homepage": "https://github.com/adamkasztenny/console-dworp#readme"
+}
