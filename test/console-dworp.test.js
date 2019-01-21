@@ -8,5 +8,9 @@ describe("console-dworp", function () {
 
         expect(console.debug).toHaveBeenCalledTimes(1);
         expect(console.debug).toHaveBeenCalledWith('dworp');
-    })
+    });
+
+    it('should export the dworp' , function () {
+        expect(module.exports).toBeDefined();
+    });
 });
