@@ -1,5 +1,9 @@
 console.dworp = function (additionalOutput) {
-     console.debug("dworp", additionalOutput || '');
+     debug("dworp", additionalOutput || '');
+}
+
+function debug(type, additionalOutput) {
+     console.debug(type, additionalOutput || '');
 }
 
 module.exports = function () {
