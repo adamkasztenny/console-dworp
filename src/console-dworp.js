@@ -1,5 +1,5 @@
 console.dworp = function (additionalOutput) {
-     debug("dworp", additionalOutput || '');
+     debug("dworp", additionalOutput)
 }
 
 function debug(type, additionalOutput) {
