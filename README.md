@@ -23,3 +23,5 @@ console.dworp(42);
 prints:
 
 `dworp, 42`
+
+`console.blorp`, `console.florp` and `console.derp` are also available.

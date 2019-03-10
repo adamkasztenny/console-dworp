@@ -21,4 +21,6 @@ function debug(type, additionalOutput) {
 module.exports = function () {
     console.dworp = console.dworp;
     console.blorp = console.blorp;
+    console.florp = console.florp;
+    console.derp = console.derp;
 }
