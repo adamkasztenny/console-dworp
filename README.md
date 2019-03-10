@@ -13,3 +13,13 @@ console.dworp();
 This prints:
 
 `dworp`
+
+Additional arguments can be used as well:
+
+```javascript
+console.dworp(42);
+```
+
+prints:
+
+`dworp, 42`
