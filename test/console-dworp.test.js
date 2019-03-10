@@ -20,6 +20,16 @@ describe("console-dworp", function () {
         });
     });
     
+    describe("florp", function () {
+        it('should florp, with no additional arguments', function () {
+            checkDebug(console.florp, 'florp', '');
+        });
+        
+        it('should blorp, with additional arguments', function () {
+            checkDebugWithAdditionalArguments(console.florp, 'florp', 'some message');
+        });
+    }); 
+
     describe("derp", function () {
         it('should derp, with no additional arguments', function () {
             checkDebug(console.derp, 'derp', '');
