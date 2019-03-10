@@ -1,6 +1,7 @@
 describe("console-dworp", function () {
 
-    const testAdditionalArguments = [null, undefined, 'some message', 0, 1, 2, false, true];
+    const testObject = {1: 'something', 2: 'somethingElse', 5: 1, 4: [1, 2, 3]};
+    const testAdditionalArguments = [null, undefined, 'some message', 0, 1, 2, false, true, testObject];
 
     describe("dworp", function () {
         it('should dworp, with no additional arguments', function () {
