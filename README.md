@@ -1,6 +1,8 @@
 # console-dworp
 The greatest debugging tool ever made.
 
+[![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://www.npmjs.com/console-dworp)
+
 ## Usage
 `npm install console-dworp`
 
