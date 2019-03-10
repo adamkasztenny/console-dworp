@@ -20,6 +20,16 @@ describe("console-dworp", function () {
         });
     });
     
+    describe("derp", function () {
+        it('should derp, with no additional arguments', function () {
+            checkDebug(console.derp, 'derp', '');
+        });
+        
+        it('should derp, with additional arguments', function () {
+            checkDebugWithAdditionalArguments(console.derp, 'derp', 'some message');
+        });
+    });
+    
     it('should export' , function () {
         expect(module.exports).toBeDefined();
     });
