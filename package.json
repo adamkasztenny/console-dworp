@@ -1,6 +1,6 @@
 {
   "name": "console-dworp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The greatest debugging tool ever made",
   "main": "src/console-dworp.js",
   "scripts": {
@@ -12,8 +12,9 @@
   },
   "keywords": [
     "dworp",
-    "derp",
-    "blorp"
+    "blorp",
+    "florp",
+    "derp"
   ],
   "author": "Adam Kasztenny",
   "license": "GPL-2.0",

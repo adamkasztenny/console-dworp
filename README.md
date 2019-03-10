@@ -13,3 +13,15 @@ console.dworp();
 This prints:
 
 `dworp`
+
+Any number of additional arguments can be used as well:
+
+```javascript
+console.dworp(42, null);
+```
+
+prints:
+
+`dworp 42 null`
+
+`console.blorp`, `console.florp` and `console.derp` are also available.
